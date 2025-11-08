@@ -8,6 +8,10 @@ import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Play, Pause, RotateCw } from
 type Direction = 'UP' | 'DOWN' | 'LEFT' | 'RIGHT' | null;
 type Position = { x: number; y: number };
 
+
+
+
+
 export default function SnakeGame() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const gameLoopRef = useRef<NodeJS.Timeout | null>(null);
